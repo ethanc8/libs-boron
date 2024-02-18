@@ -1,5 +1,4 @@
-1 README
-********
+# 1 README
 
 The GNUstep Boron Library is a library whose atomic number is smaller
 than that of Carbon.
@@ -8,14 +7,12 @@ It aims to be compatible with non-deprecated, general-purpose parts
 of the Apple ApplicationServices and CoreServices frameworks, most
 of which are parts of the Carbon stack.
 
-1.1 Initial reading
-===================
+## 1.1 Initial reading
 
-The files `INSTALL' or `GNUstep-HOWTO' (from the web site) gives
+The files `INSTALL` or `GNUstep-HOWTO` (from the web site) gives
 instructions for installing the library.
 
-1.2 License
-===========
+## 1.2 License
 
 The GNUstep libraries and library resources are covered under the GNU
 Lesser General Public License.  This means you can use these libraries in
@@ -31,15 +28,12 @@ programs, you cannot charge a fee, other than distribution fees, for others
 to use the program. You should read the COPYING file for more information.
 All files in the 'Test', directory is covered under the GPL.
 
-1.3 How can you help?
-=====================
+## 1.3 How can you help?
 
 * Give us feedback!  Tell us what you like; tell us what you think
 could be better.
 
-Please log bug reports on the GNUstep project page
-`http://savannah.gnu.org/bugs/?group=gnustep' or send bug reports
-to <bug-gnustep@gnu.org>.
+Please log bug reports on GitHub Issues.
 
 Happy hacking!
 

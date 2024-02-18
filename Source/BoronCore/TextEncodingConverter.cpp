@@ -18,6 +18,8 @@ along with Darling.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #include <MacTypes.h>
+#include <stdio.h>
+#include <string.h>
 #include <CarbonCore/MacErrors.h>
 #include <CarbonCore/TextEncodingConverter.h>
 #include <unicode/ucnv.h>
