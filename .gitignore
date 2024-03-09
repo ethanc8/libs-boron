@@ -5,3 +5,5 @@ autom4te.cache
 *.swp
 **/compile_commands.json
 **/.cache
+**/.vscode
+**/*.kdev4
