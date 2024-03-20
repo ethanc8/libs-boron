@@ -34,18 +34,18 @@
 // This function should iterate through GNUstep apps and have
 // a minimally decent mechanism (possibly insired in Apple's
 // CoreServices bundle) to store the system UTIs plist.
-__attribute__((constructor))
-static void UTILoad() {
-  // HACK: This is needed to avoid some issues with CoreBase and constant
-  // strings.
-  [NSString load];
+// __attribute__((constructor))
+// static void UTILoad() {
+//   // HACK: This is needed to avoid some issues with CoreBase and constant
+//   // strings.
+//   [NSString load];
   
-  // We use Objective-C and Base here because CoreBase's plist parser is
-  // broken.
-  NSString *path = @"/usr/local/share/GNUstep/utis.plist";
-  NSData *data = [NSData dataWithContentsOfFile:path];
-  NSError *err = NULL;
-  NSDictionary *plist = [NSPropertyListSerialization propertyListWithData:data options:0 format:NULL error:&err];
+//   // We use Objective-C and Base here because CoreBase's plist parser is
+//   // broken.
+//   NSString *path = @"/usr/local/share/GNUstep/utis.plist";
+//   NSData *data = [NSData dataWithContentsOfFile:path];
+//   NSError *err = NULL;
+//   NSDictionary *plist = [NSPropertyListSerialization propertyListWithData:data options:0 format:NULL error:&err];
 
-  _UTAddPropertyListToCache((CFDictionaryRef)plist);
-}
+//   _UTAddPropertyListToCache((CFDictionaryRef)plist);
+// }
