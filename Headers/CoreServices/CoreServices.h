@@ -29,7 +29,8 @@
 
 #include <CoreFoundation/CoreFoundation.h>
 #include <CarbonCore/CarbonCore.h>
-#include <CFNetwork/CFNetwork.h>
+// FIXME: Find a working CFNetwork implementation
+// #include <CFNetwork/CFNetwork.h>
 #include <LaunchServices/LaunchServices.h>
 
 #endif
